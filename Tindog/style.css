@@ -1,0 +1,91 @@
+html{
+    margin: 0;
+
+}
+body {
+    width: 550px;
+    height: 973px;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid green;
+    background: linear-gradient(180deg, #FFFFFF 33.29%, #F7F8FC 100%);
+}
+header {
+    left: 48.71%;
+    right: 48.71%;
+    top: 48.98%;
+    bottom: 36.19%;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+}
+section {
+    height: 740px;
+    width: 534px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.9) -11.44%, rgba(0, 0, 0, 0) 39.97%), url(images/dog.png);
+    border-radius: 15px;
+    position: relative;
+}
+.head{
+    color: red;
+    position: absolute;
+    margin-top: 650px;
+}
+.text {
+    color: red;
+    position: absolute;
+    margin-top: 680px;
+}
+.icon1{
+    width: 30px;
+    height: 30px;
+    background: #DCE1E7;
+}
+.foot {
+    width: 30px;
+    height: 30px;
+    background: #FFFFFF;
+}
+.icon2 {
+    width: 30px;
+    height: 30px;
+    background: #D9DEE6;
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+    margin-top:20px ;
+}
+#reject-button{
+    border:2px solid #fffafa;
+    border-radius: 100px;
+    background: #FFFFFF;
+}
+#accept-button {
+    border:2px solid #fffafa;
+    border-radius: 100px;
+    background: #FFFFFF;
+}
+.like {
+    box-sizing: border-box;
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    border-radius: 10.3807px;
+    transform: rotate(-30deg);
+    border: 2px solid rgb(143, 249, 143);
+    display: none;
+}
+.nope{
+    display: none;
+    box-sizing: border-box;
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    border-radius: 10.3807px;
+    transform: rotate(-30deg);
+    border: 2px solid rgb(143, 249, 143);
+}
+.active{
+    display: block;
+}
